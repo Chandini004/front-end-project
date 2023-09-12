@@ -1,0 +1,409 @@
+
+.main{
+    background: linear-gradient(to top,rgba(105, 3, 92, 0.7),rgba(12, 12, 12, 0.2)),url("./images/saloon1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.title{
+    padding-top: 40px;
+    font-size: 80px;
+    color: white;
+    font-family:cursive;
+    text-align: center;
+}
+.one button,.two button{
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    z-index: 1;
+}
+.one button{
+    padding-right: 20px;
+}
+.one button span,.two button span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: white;
+    z-index: -1;
+    transition: 0.5s;
+}
+.one button:hover span,.two button:hover span{
+    width: 100%;
+    
+}
+.one button:hover ,.two button:hover{
+    color: rgba(155, 5, 135, 0.7);
+}
+
+.img{
+    position: absolute;
+    left:570px;
+    top: 111%;
+}
+.features{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 60px;
+}
+
+.buttons{
+    display: flex;gap: 20px;
+    padding-left: 550px;
+    padding-top: 40px;
+}
+
+
+.div2{
+    border-radius: 10px;
+position: relative;
+overflow: hidden;
+height: 350px;
+    margin-top: 10px;
+
+}
+.div2 img{
+    width:80%;
+    height: 350px;
+border-radius: 10px;
+display: block;
+transition: transition 0.5s;
+}
+.layer{
+width: 80%;
+height:0;
+background: linear-gradient(to top,rgba(105, 3, 92, 0.7),rgba(12, 12, 12, 0.2));
+border-radius: 10px;
+position: absolute;
+left:0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+/* padding: 0 40px; */
+text-align: center;
+font-size: 14px;
+transition: height 0.5s;
+color:rgb(241, 247, 246);
+
+}
+.layer h1{
+font-weight: 500;
+margin-bottom: 10px;
+
+}
+.layer a{
+margin-top: 20px;
+color:rgb(241, 247, 246);
+text-decoration:none;
+font-size: 18px;
+line-height: 60px;
+background:white;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+text-align: center;
+}
+.div2:hover img{
+width: 80%;
+
+/* transform: scale(1.1); */
+}
+.div2:hover .layer{
+height: 350px;
+width: 80%;
+}
+
+
+
+
+
+
+
+
+
+.div1{
+    /* padding: 80px; */
+    margin-right: 100px;
+    padding-left: 110px;
+}
+
+.img1{
+    position: absolute;
+    left:555px;
+    top: 30px;
+}
+.features{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 60px;
+}
+.services{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 40px;
+}
+.testimonal{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 25px;
+}
+.contact{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 10px;
+}
+.img2{
+    position: absolute;
+    left:570px;
+    top: 326%;
+}
+.img3{
+    position: absolute;
+    left:580px;
+    top: 432%;
+}
+.one2{
+    display: flex;
+    gap: 15px;
+}
+
+.five2{
+    background:url(./images/saloonfe5.jpg);
+    width:400px;
+    height:300px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    border-radius: 5px;
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.5s;
+}
+.two2{
+    background: url(./images/saloonfe1.jpg);
+    width:400px;
+    height:300px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.5s;
+    
+
+    /* width:80%; */
+    /* height: 350px; */
+/* border-radius: 10px; */
+color: aliceblue;
+text-align: center;
+display: block;
+/* transition: transition 0.5s; */
+}
+.two2 p{
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 50px;
+}
+.two2 h1{
+    padding-top: 20px;
+}
+.overlay{
+width: 400px;
+height:0;
+background: linear-gradient(to top,rgba(105, 3, 92, 0.7),rgba(12, 12, 12, 0.2));
+border-radius: 5px;
+position: absolute;
+left:0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.two2:hover .overlay{
+height: 300px;
+width: 400px;
+}
+
+
+
+
+
+
+
+
+.three2{
+    background:url(./images/saloonfe3.jpg);
+    width:400px;
+    height:300px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    border-radius: 5px;
+    margin-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.5s;
+    
+}
+.four2{
+    background:url(./images/saloonpr1.jpg);
+    width:400px;
+    height:300px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 10px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: transform 0.5s;
+}
+.two2:hover{
+    /* height:340px; */
+    -ms-transform: scale(1.1); /* IE 9 */
+-webkit-transform: scale(1.1); /* Safari 3-8 */
+transform: scale(1.1); 
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.three2:hover{
+    /* height:340px; */
+    -ms-transform: scale(1.1); /* IE 9 */
+-webkit-transform: scale(1.1); /* Safari 3-8 */
+transform: scale(1.1); 
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.four2:hover{
+    /* height:340px; */
+    -ms-transform: scale(1.1); /* IE 9 */
+-webkit-transform: scale(1.1); /* Safari 3-8 */
+transform: scale(1.1); 
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.five2:hover{
+    /* height:340px; */
+    -ms-transform: scale(1.1); /* IE 9 */
+-webkit-transform: scale(1.1); /* Safari 3-8 */
+transform: scale(1.1); 
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.two3{
+    display: flex;
+    gap:20px;
+}
+.pr1{
+    padding-top: 5px;
+}
+.five3{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.six3{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    margin-top: 40px;
+}
+.seven3{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    margin-top: 40px;
+    margin-left: 440px;
+    margin-right: 400px;
+}
+.one3{
+    display: flex;
+    gap:50px;
+}
+.ftrimg{
+    
+    opacity: 0.3;
+    position: absolute;
+    left: 570px;
+    top:460%;
+}
+.div3{
+    padding-left: 180px;
+    font-size: 20px;
+    
+}
+.div4{
+    padding-left: 500px;
+}
+.clok{
+    display: flex;
+   
+}
+.clok1{
+    padding-top: 21px;
+    padding-right: 5px;
+}
+.footer{
+    background: rgba(117, 117, 116, 0.11);
+}
+#sidenav{
+    position: absolute;
+    /* display: flex; */
+    top:5%;
+    /* width: 100%; */
+    padding-left: 550px;
+
+    /* background-color: aliceblue; */
+}
+nav ul li{
+
+    display:inline-block;
+    margin-right: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(250, 247, 249);
+    font-size: 18px;
+    font-family:cursive;
+    position: relative;
+}
+nav ul li a::after{
+content:'';
+width:0;
+height:3px;
+background-color:rgb(248, 246, 248);
+position:absolute;
+left:20%;
+/* margin-left: -40px; */
+border-radius: 10px;
+bottom: -6px;
+transition: 0.3s;
+}
+nav ul li a:hover::after{
+width:60%;
+}
+html{
+scroll-behavior:smooth;
+}
+.cont a{
+transition: transform 0.3s;
+color: #f85485;
+font-size: 40px;
+}   
+.cont a:hover{
+transform: scale(1.2);
+color: #f3356e;
+} 
